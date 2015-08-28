@@ -16,7 +16,11 @@ public class Main {
 	private String composeGreeting() {
 		return "Hello World!";
 	}
-	
+
+	private void print(final String msg) {
+		System.out.println(msg);
+	}
+
 	/**
 	 * <p>
 	 * Entry point.
@@ -27,8 +31,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		final Main main = new Main();
-		
-		System.out.println(main.composeGreeting());
+		main.print(main.composeGreeting());
+
 		System.exit(0);
 	}
 
