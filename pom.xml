@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>biz.videomed.exps</groupId>
 	<artifactId>gitflow-exp</artifactId>
@@ -17,6 +18,9 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m5.1</version>
 				<configuration>
+					<pushFeatures>true</pushFeatures>
+					<pushHotfixes>true</pushHotfixes>
+					<pushReleases>true</pushReleases>
 					<masterBranchName>master</masterBranchName>
 					<developBranchName>develop</developBranchName>
 					<featureBranchPrefix>feature/</featureBranchPrefix>
