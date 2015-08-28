@@ -13,6 +13,14 @@ package biz.videomed.exp.gitflow;
  */
 public class Main {
 
+	private String composeGreeting() {
+		return "Hello World!";
+	}
+
+	private void print(final String msg) {
+		System.out.println(msg);
+	}
+
 	/**
 	 * <p>
 	 * Entry point.
@@ -22,7 +30,9 @@ public class Main {
 	 *            None
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello World! 2");
+		final Main main = new Main();
+		main.print(main.composeGreeting());
+
 		System.exit(0);
 	}
 
