@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>biz.videomed.exps</groupId>
 	<artifactId>gitflow-exp</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.4</version>
 
 	<scm>
 		<connection>scm:git:git@github.com:conteit/gitflow-exp.git</connection>
