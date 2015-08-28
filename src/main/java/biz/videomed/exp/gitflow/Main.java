@@ -2,7 +2,7 @@ package biz.videomed.exp.gitflow;
 
 /**
  * <p>
- * .
+ * This is the main class.
  * </p>
  *
  * @author <a href="mailto:software@videomed.biz">Videomed R&D Software
