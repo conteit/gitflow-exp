@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>biz.videomed.exps</groupId>
 	<artifactId>gitflow-exp</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 
 	<scm>
 		<connection>scm:git:git@github.com:conteit/gitflow-exp.git</connection>
@@ -22,8 +22,9 @@
 					<featureBranchPrefix>feature/</featureBranchPrefix>
 					<releaseBranchPrefix>release/</releaseBranchPrefix>
 					<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
-					<versionTagPrefix></versionTagPrefix>
+					<versionTagPrefix />
 					<noDeploy>true</noDeploy>
+					<enableSshAgent>true</enableSshAgent>
 				</configuration>
 			</plugin>
 		</plugins>
