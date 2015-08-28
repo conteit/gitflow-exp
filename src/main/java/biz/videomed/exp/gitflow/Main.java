@@ -13,6 +13,14 @@ package biz.videomed.exp.gitflow;
  */
 public class Main {
 
+	/**
+	 * <p>
+	 * Entry point.
+	 * </p>
+	 *
+	 * @param args
+	 *            None
+	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World! 2");
 		System.exit(0);
